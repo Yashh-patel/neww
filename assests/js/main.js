@@ -4,6 +4,25 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+var tl=gsap.timeline()
+
+tl.from(".credits", {
+  opacity: 0,
+  y: 20,
+  duration: 1.5,
+  delay: 1,
+  ease: "power3.out"
+});
+
+tl.from(".credits a", {
+  opacity: 1,
+  x: -50,
+  duration: 1,
+  delay: 1.5,
+  ease: "power3.out"
+});
+
+
 (function() {
   "use strict";
 
